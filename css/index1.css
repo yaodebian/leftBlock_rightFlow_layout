@@ -1,0 +1,16 @@
+/* 双inline-block方案 */
+#box {
+  box-sizing: content-box;
+  font-size: 0; /* 消除空格影响 */
+}
+
+.left, .right {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.right {
+  width: calc(100% - 300px);
+}

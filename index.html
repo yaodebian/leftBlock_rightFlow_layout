@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>左边固定，右边自适应布局</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .left {
+      width: 300px;
+      background: red;
+    }
+
+    .right {
+      background: yellow;
+    }
+  </style>
+  <!-- 双inline-block模式 -->
+  <!-- <link rel="stylesheet" href="css/index1.css"> -->
+  
+  <!-- 双float方案 -->
+  <!-- <link rel="stylesheet" href="css/index2.css"> -->
+  
+  <!-- float + margin-left解决方案 -->
+  <!-- <link rel="stylesheet" href="css/index3.css"> -->
+  
+  <!-- absolute + margin-left方法 -->
+  <!-- <link rel="stylesheet" href="css/index4.css"> -->
+  
+  <!-- absolute + margin-left方法 -->
+  <!-- <link rel="stylesheet" href="css/index5.css"> -->
+  
+  <!-- flex方法 -->
+  <!-- <link rel="stylesheet" href="css/index6.css"> -->
+  
+  <!-- grid方法 -->
+  <!-- <link rel="stylesheet" href="css/index7.css"> -->
+</head>
+<body>
+  <div id="box">
+    <div class="left">我是左边</div>
+    <div class="right">我是右边</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+/* absolute + margin-left方法 */
+.left {
+  position: absolute;
+}
+
+.right {
+  margin-left: 300px;
+}

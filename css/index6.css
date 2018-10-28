@@ -1,0 +1,8 @@
+/* 通过flex来实现 */
+#box {
+  display: flex;
+}
+
+.right {
+  flex-grow: 1;
+}

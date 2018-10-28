@@ -1,0 +1,13 @@
+/* float + margin-left解决方案 */
+#box {
+  /* 清除浮动效果 */
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  margin-left: 300px;
+}

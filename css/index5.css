@@ -1,0 +1,12 @@
+/* 通过float + BFC */
+#box {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  overflow: auto;
+}

@@ -1,0 +1,17 @@
+/* grid布局方式 */
+#box {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.left, .right {
+  box-sizing: border-box;
+}
+
+.left {
+  grid-column: 1;
+}
+
+.right {
+  grid-column: 2;
+}
